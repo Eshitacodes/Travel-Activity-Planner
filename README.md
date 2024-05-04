@@ -1,1 +1,1 @@
-# Travel-Activity-Planner-Bot
+# Travel-Activity-Planner
