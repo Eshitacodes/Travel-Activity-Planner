@@ -1,37 +1,57 @@
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+
+    background-color: rgb(23, 23, 23);
     margin: 0;
     padding: 0;
+      
+      
   }
   *{
-    color:red;
+    color:black;
   }
   
   .container {
-    max-width: 600px;
+    max-width: 500px;
+
+    min-height: 400px;
+
     margin: 50px auto;
-    background-color: #fff;
+    background-color: black;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 8);
+
+    
   }
   
   h1 {
     text-align: center;
+
+        font-family: "Lovers Quarrel", cursive;
+        font-weight: bolder;
+        font-style: normal;
+
+        color: #bcbdc9;
+        font-size: 50px;
+
   }
  input[type="text"] {
     width: calc(100% - 22px);
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 7px;
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #bcbdc9;
   }
   
   button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #3d6bd6;
     color: white;
     border: none;
     border-radius: 3px;
@@ -39,7 +59,7 @@ body {
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #4572a0;
   }
   
  #chatbox {
@@ -49,5 +69,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 3px;
     min-height: 100px;
-    overflow-y: auto;
-  }
+    overflow-y:auto;
+
+    background-color: #bcbdc9;
+}
